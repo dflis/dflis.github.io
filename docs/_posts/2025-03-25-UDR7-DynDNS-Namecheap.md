@@ -5,7 +5,7 @@ date: 2025-03-25 09:00:00 +0100
 categories: [Homelab]
 tags: [ddns, udr7, namecheap] 
 ---
-This procedure describes how to configure the Unifi Dream Router 7 Dynamic DNS service to periodically update A + Dynamic DNS Record `router.dubravko.com on` at Namecheap DNS server with the public IP address of `Primary (WAN1)` interface.
+This procedure describes how to configure the Unifi Dream Router 7 Dynamic DNS service to periodically update A + Dynamic DNS Record `router.dubravko.com` at Namecheap DNS server with the public IP address of `Primary (WAN1)` interface.
 
 > This configuration will only periodically update the DNS record if the telecom router is set to bridge mode and the UDR7 is configured to connect to the Internet directly via a PPPoE connection. Otherwise, the UDR7 will not automatically detect changes in the public IP address, which would prevent automatic DynDNS updates from triggering.
 {: .prompt-info }
